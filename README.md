@@ -1,8 +1,16 @@
-# React + Vite
+# OTP Generator App with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple OTP (One-Time Password) generator application built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate one-time passwords for authentication purposes
+- Copy generated OTPs to the clipboard
+- Customize OTP length and expiration time
+
+## Technologies Used
+
+- React: Frontend library for building user interfaces
+- React Hooks: Feature that allows using state and other React features without writing a class
+- Clipboard.js: Library for copying text to the clipboard
+- UUID: Library for generating unique identifiers
